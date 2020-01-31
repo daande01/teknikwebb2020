@@ -1,0 +1,44 @@
+h2{
+  
+  background-color: #ccebff;  
+}
+
+header{
+  background-color: red;
+  height: 100px;
+  width: 600px;  
+}
+nav{
+    background-color: green;
+  height: 50px;
+  width: 600px;  
+}
+main{
+    background-color: pink;
+  height: 400px;
+  width: 400px;
+}
+aside{
+  background-color: orange;
+height: 400px;
+width: 200px;
+  
+  
+}
+footer{
+  background-color: blue;
+  height: 50px;
+  width: 600px;  
+}
+
+#mainwrapper{
+  display:flex;
+  
+}
+#wrapper{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
