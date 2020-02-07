@@ -6,29 +6,29 @@ h2{
 header{
   background-color: red;
   height: 100px;
-  width: 600px;  
+  width: 100%;  
 }
 nav{
     background-color: green;
   height: 50px;
-  width: 600px;  
+  width: 100%;  
 }
 main{
     background-color: pink;
   height: 400px;
-  width: 400px;
+  width: 70%;
 }
 aside{
   background-color: orange;
 height: 400px;
-width: 200px;
+width: 30%;
   
   
 }
 footer{
   background-color: blue;
   height: 50px;
-  width: 600px;  
+  width: 100%;  
 }
 
 #mainwrapper{
@@ -36,9 +36,16 @@ footer{
   
 }
 #wrapper{
-  width: 600px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   
 }
+@media only screen and (max-width: 600px) {
 
+  #mainwrapper{
+    display:flex;
+    flex-direction: column;
+    
+  }
+}
