@@ -41,6 +41,32 @@ footer{
   margin-right: auto;
   
 }
+#boxwrapper{
+  height:50%;
+  width: 100%;
+  background-color: grey;
+  display:flex;
+}
+#bottomcenter{
+  height:50%;
+  width: 100%;
+  background-color: lightblue;
+}
+#boxleft{
+  height:100%;
+  width: 50%;
+  background-color: red;
+}
+#boxright{
+  height:100%;
+  width: 50%;
+  background-color: black;
+  
+  
+}
+
+
+
 @media only screen and (max-width: 600px) {
 
   #mainwrapper{
@@ -48,4 +74,11 @@ footer{
     flex-direction: column;
     
   }
+  main{
+    width: 100%;
+  }
+  aside{
+    width:100%;
+  }
+  
 }
